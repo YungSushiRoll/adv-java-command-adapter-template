@@ -7,4 +7,6 @@ package command.stockbroker;
 public interface Order {
 
     void execute();
+
+    void undo();
 }
